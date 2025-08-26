@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "sumit"
+  name     = "sumit1"
   location = "westus"
 }
 
@@ -19,7 +19,7 @@ resource "azurerm_storage_container" "rg_container" {
 }
 
 resource "azurerm_resource_group" "rg1" {
-  name     = "sumit1"
+  name     = "sumit2"
   location = "westus"
 }
 
